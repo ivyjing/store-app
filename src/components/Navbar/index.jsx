@@ -19,6 +19,9 @@ export const Navbar = () => {
                 <li>
                     <Logout />
                 </li>
+                <li>
+                    <NavLink activeClassName="nav-selected" to="/new"> Add new pet</NavLink>
+                </li>
             </ul>
         </nav>
     )
